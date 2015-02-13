@@ -10,7 +10,7 @@ body {
 header {
   margin: 0;
   padding: 1em;
-  align: center;
+  text-align: center;
 }
 
 h1 {
@@ -18,8 +18,8 @@ h1 {
   font-size: 60px;
   font-style: normal; /* normal */
   font-family: 'Sigmar One', cursive;
+  align: center;
   text-align: center;
-  padding: 0 1em 0 0em;
   margin: 0 0.5em 0.5em 0.05em;
   color: #fff
 }
@@ -110,7 +110,7 @@ li {
   font-style: italic; /* normal, italic */
 }
 
- div {
+ dt {
   font-weight: bold;
 }
 
@@ -130,4 +130,8 @@ footer {
 
 footer p a {
   color: #efb6c9;
+}
+
+div {
+  padding: 0.2em;
 }
